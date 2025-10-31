@@ -2,25 +2,23 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { YukemuriClient } from '@yukemuri/api'
-import type { User } from '../types/user'
+// import type { User } from './lib/api/types/user'
+import { useAuthSession } from './lib/auth/session'
+// import { getMe } from './lib/api/clients/me'
 
 function App() {
   const [count, setCount] = useState(0)
 
-  const api = new YukemuriClient('https://dummyjson.com');
-  
-  async function testFetch() {
-    try {
-      const res = await api.get<User[]>("/users");
-      console.log("✅ 成功:", res);
-      console.log(api);
-    } catch (err) {
-      console.error("❌ エラー:", err);
-    }
-  }
+  const session = useAuthSession('cookie', 'username', 'password');
 
-  testFetch();
+  console.log(session); // ここで呼び出す
+
+  const handleLogin = async () => {
+
+  }
+  
+  handleLogin()
+
 
   return (
     <>

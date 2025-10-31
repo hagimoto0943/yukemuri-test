@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@yukemuri/api": "^0.1.9",
+    "@yukemuri/api": "^0.1.13",
     "@yukemuri/auth": "^0.1.5",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"

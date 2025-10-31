@@ -510,10 +510,10 @@
     "@types/babel__core" "^7.20.5"
     react-refresh "^0.18.0"
 
-"@yukemuri/api@^0.1.9":
-  version "0.1.9"
-  resolved "https://registry.npmjs.org/@yukemuri/api/-/api-0.1.9.tgz"
-  integrity sha512-9WdZ1iM6GEdImvuQa3s4gV2XgXjuA4FjbL93JABsZy9lRMYRWG9RGcR5HSXLZv7k5JKTK9aV+5tDghiRL2RB0Q==
+"@yukemuri/api@^0.1.13":
+  version "0.1.13"
+  resolved "https://registry.npmjs.org/@yukemuri/api/-/api-0.1.13.tgz"
+  integrity sha512-IjPpiVWM6d14pGFmJGVxMqM7ZZ9xLqdMOIyAD9P0W/LWVviEooUoJqpjiupAnYWvnXkGFqIXCfSM/5SviS3O2g==
   dependencies:
     "@yukemuri/auth" "file:../auth"
 
